@@ -5,17 +5,18 @@
 
 int main(int argc, char *argv[]) {
 
-    int x;
-    short y;
-    float z;
-    double i;
-    
-    printf("bytes of int : %d\n", sizeof(x));
-	printf("bytes of short : %d\n", sizeof(y));
-	printf("bytes of float : %d\n", sizeof(z));
-	printf("bytes of double : %d\n", sizeof(i));
+
+	int input_int;
+	float input_float;
 	
-	printf("Hello Sookmyung EE!\n");
+	printf("enter integer : ");
+	scanf("%d" , &input_int);
+	
+	printf("enter a float : ");
+	scanf("%f" , &input_float);
+	
+	printf("integer : %d, float : %f\n" , input_int, input_float);
+	
 	
 	return 0;
 }
